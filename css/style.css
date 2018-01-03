@@ -1,0 +1,60 @@
+#game {
+  background-color: #22592a;
+  color: white;
+  padding: 20px;
+  text-align: center; }
+
+#js-deal {
+  visibility: hidden; }
+
+#js-againPlay {
+  visibility: hidden; }
+
+.title {
+  margin-bottom: 20px; }
+
+.scoresheet {
+  background-color: #5f6060;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  max-width: 3000px;
+  margin: 0 auto; }
+  .scoresheet .scoresheet-header {
+    margin: 10px 0;
+    font-weight: 700; }
+  .scoresheet .scoresheet-body {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px; }
+
+.cards-area {
+  width: 70%;
+  height: 130px;
+  max-width: 500px;
+  margin: 5px auto; }
+  .cards-area .card {
+    width: 84px;
+    padding: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: -70px; }
+    .cards-area .card:first-of-type {
+      margin-left: 10px; }
+
+.miniscore {
+  margin-top: 0; }
+
+.chip {
+  width: 50px;
+  height: 50px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%; }
+
+.options {
+  margin: 10px 0;
+  visibility: hidden; }
+
+/*# sourceMappingURL=style.css.map */
