@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blackjack</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="game">
+            <div class="row title">
+                <div class="col-xs-12">
+                    <h1>Easy BlackJack <span class="label label-default">test version</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <span class="label label-info">Croupier</span>
+                    <div id="js-actualComputerStatus" class="miniscore">
+                        0
+                    </div>
+                    <div id="js-compCards" class="cards-area">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="js-playerCards" class="cards-area">
+
+                    </div>
+                    <div id="js-actualPlayerStatus" class="miniscore">
+                        0
+                    </div>
+                    <span class="label label-info">Player</span>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="scoresheet">
+                            <div class="scoresheet-header">
+                                Cash
+                            </div>
+                            <div id="js-money" class="scoresheet-body">
+                                0$
+                            </div>
+                            <div class="scoresheet-header">
+                                Bet
+                            </div>
+                            <div id="js-bet" class="scoresheet-body">
+                                0$
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="options">
+                       <button id="hit" class="btn btn-success" >Hit</button>
+                        <button id="stand" class="btn btn-danger">Stand</button>
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            <div id="js-info">Make a deal</div>
+                            <div>
+                                <button id="js-againPlay">Play again</button>
+                            </div>
+                        </div>
+                        <button id="js-deal" class="btn btn-warning btn-block">Deal</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                      <div id="js-betButtons">
+                           <div>
+                               <button id="bb1" class="btn btn-success chip"> 1$</button>
+                               <button id="bb2" class="btn btn-success  chip"> 5$</button>
+                               <button id="bb3" class="btn btn-success  chip"> 10$</button>
+                               <button id="bb4" class="btn btn-success  chip"> 20$</button>
+                           </div>
+                            <div>
+                                <button id="bclear" class="btn btn-danger">clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/game_script.js"></script>
+    </body>
+</html>
